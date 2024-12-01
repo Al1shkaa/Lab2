@@ -16,9 +16,13 @@ java {
 
 
 
+
+
 repositories {
 	mavenCentral()
+	gradlePluginPortal()
 }
+
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
